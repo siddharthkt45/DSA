@@ -12,17 +12,15 @@ public class FibonacciSeries {
     }
 
     private static void printFibonacciSeries(int n) {
-        int firstNumber = 0;
-        int secondNumber = 1;
+        int firstNumber = 0;            // first fibonacci number is always 0
+        int secondNumber = 1;           // second fibonacci number is always 1
 
-        System.out.println(firstNumber);
-        System.out.println(secondNumber);
+        for (int i = 0; i < n; i++) {
+            System.out.println(firstNumber);        // prints the first number
 
-        for (int i = 2; i < n; i++) {
-            int thirdNumber = firstNumber + secondNumber;
-            firstNumber = secondNumber;
-            secondNumber = thirdNumber;
-            System.out.println(thirdNumber);
+            int thirdNumber = firstNumber + secondNumber;       // calculate the third number by adding first & second
+            firstNumber = secondNumber;             // move first to second's position
+            secondNumber = thirdNumber;             // move second to third's position
         }
     }
 }
