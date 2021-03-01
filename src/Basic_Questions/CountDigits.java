@@ -8,11 +8,11 @@ public class CountDigits {
         System.out.println("Enter the number whose digits you want to count");
         int n = sc.nextInt();
 
-        int digits = countDigitsInANumber(n);
+        int digits = countDigitsOfANumber(n);
         System.out.println("No. of digits -> " + digits);
     }
 
-    private static int countDigitsInANumber(int n) {
+    private static int countDigitsOfANumber(int n) {
         int count = 0;          // initialising the count variable
 
         while (n != 0) {        // run loop till the number becomes 0
