@@ -19,7 +19,7 @@ public class Pattern8 {
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n; j++) {
                 if (i + j == n + 1) {               // In this type of diagonal, i + j == n + 1 always for the stars
-                    System.out.print("*\t");        // so, whenever you get there, print stars
+                    System.out.print("*\t");        // so, whenever you get that, print stars
                 } else {
                     System.out.print("\t");         // otherwise, print spaces
                 }

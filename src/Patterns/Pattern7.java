@@ -18,10 +18,10 @@ public class Pattern7 {
         
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n; j++) {
-                if (i == j) {
-                    System.out.print("*\t");
+                if (i == j) {                           // in this type of diagonal, i == j always for the stars
+                    System.out.print("*\t");            // so, whenever you get that, print stars
                 } else {
-                    System.out.print("\t");
+                    System.out.print("\t");             // otherwise print spaces
                 }
             }
     
