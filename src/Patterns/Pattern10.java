@@ -15,6 +15,9 @@ public class Pattern10 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of lines (must be odd) you want to print in this type of pattern");
         int n = sc.nextInt();
+    
+        if (n % 2 == 0)             // n must be an odd number
+            return;
         
         int os = n / 2;             // os = outer space
         int is = -1;                // is = inner space
