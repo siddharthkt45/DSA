@@ -17,7 +17,7 @@ public class Pattern15 {
         System.out.println("Enter the number of lines (must be odd) you want to print in this type of pattern");
         int n = sc.nextInt();
         
-        if (n % 2 == 0)                     // n must be an odd number
+        if (n % 2 == 0)             // n must be an odd number
             return;
         
         int sp = n / 2;             // sp = spaces
