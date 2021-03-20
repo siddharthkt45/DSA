@@ -10,7 +10,7 @@ package Patterns;
 
 import java.util.Scanner;
 
-public class Pattern9 {
+public class Pattern09 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of lines (must be odd) you want to print in this type of pattern");

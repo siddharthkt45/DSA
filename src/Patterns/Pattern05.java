@@ -11,7 +11,7 @@ package Patterns;
 
 import java.util.Scanner;
 
-public class Pattern5 {
+public class Pattern05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of lines (must be odd) you want to print in this type of pattern");
