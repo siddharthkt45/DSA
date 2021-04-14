@@ -1,3 +1,6 @@
+// In this question, you are provided two numbers of same base (number system), which is also provided
+// and you have to calculate the difference of those two numbers in the same base
+
 package Number_System;
 
 import java.util.Scanner;
