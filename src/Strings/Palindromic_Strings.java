@@ -13,9 +13,9 @@ public class Palindromic_Strings {
     
     private static boolean isPalindrome(String s) {
 /*
-        This code uses extra memory as StringBuilder is used.
+        This code uses extra memory as Strings.StringBuilder is used.
         
-        StringBuilder rev = new StringBuilder();
+        Strings.StringBuilder rev = new Strings.StringBuilder();
         for (int i = s.length()-1; i >= 0; i--) {
             rev.append(s.charAt(i));
         }
