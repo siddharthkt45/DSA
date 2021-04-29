@@ -9,7 +9,8 @@ public class Remove_Prime_Numbers {
         System.out.println("Enter the size of arraylist:- ");
         int n = sc.nextInt();
         ArrayList<Integer> prime = new ArrayList<>();
-        
+
+        System.out.println("Enter the elements of the arraylist:- ");
         for (int i = 0; i < n; i++) {
             prime.add(sc.nextInt());
         }
