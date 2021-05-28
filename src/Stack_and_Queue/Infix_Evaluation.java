@@ -77,14 +77,12 @@ public class Infix_Evaluation {
 
     // this function returns the precedence of the operators
     private static int precedence(char ch) {
-        if (ch == '+') {
+        if (ch == '+' || ch == '-') {
             return 1;
-        } else if (ch == '-') {
-            return 1;
-        } else if (ch == '*') {
+        } else if (ch == '*' || ch == '/') {
             return 2;
         } else {
-            return 2;
+            return 0;
         }
     }
 }
