@@ -29,8 +29,8 @@ public class Normal_Stack {
                 if (val != -1) {        // if the value is NOT -1
                     System.out.println(val);    // print the value
                 }
-            } else if (str.startsWith("top")) {     // if the command starts with "top"
-                int val = st.top();     // store the value from the top of stack
+            } else if (str.startsWith("peek")) {     // if the command starts with "top"
+                int val = st.peek();     // store the value from the top of stack
                 if (val != -1) {        // if the value is NOT -1
                     System.out.println(val);    // print the value
                 }
@@ -52,7 +52,7 @@ public class Normal_Stack {
             tos = -1;                   // initialise the tos to -1
         }
 
-        int size() {        // size function returns the size of the stack at any given time
+        int size() {        // size function returns the total number of elements in the stack
             return tos + 1;     // size of the stack is tos + 1
         }
 
@@ -83,7 +83,7 @@ public class Normal_Stack {
             }
         }
 
-        int top() {         // top function returns the element at the top of the stack
+        int peek() {         // top function returns the element at the top of the stack
             if (tos == -1) {                            // if the stack is empty
                 System.out.println("Stack underflow");  // print stack underflow
                 return -1;                              // and return -1
