@@ -21,7 +21,7 @@ public class Power_Logarithmic {
         if (n == 0) {               // Base case, if n becomes 0,
             return 1;               // return 1, since any number raised to the power 0 is 1.
         }
-        int power = power(x, n / 2);  // Make the call to n - 1 and store it in a variable
+        int power = power(x, n / 2);  // Make the call to n / 2 and store it in a variable
         if (n % 2 == 1) {                // if n is odd,
             return power * power * x;    // multiply the var with itself & with x & return it.
         }
