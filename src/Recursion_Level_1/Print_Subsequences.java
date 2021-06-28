@@ -6,7 +6,7 @@ package Recursion_Level_1;
 
 import java.util.*;
 
-public class Print_Subsequence {
+public class Print_Subsequences {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the string:- ");

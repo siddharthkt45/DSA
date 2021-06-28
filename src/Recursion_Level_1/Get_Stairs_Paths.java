@@ -1,7 +1,6 @@
-// Here, in this question, we're given a number of stairs and
-// we're given 3 choices whether to climb down 1 stair
-// or to climb down 2 stairs or to climb down 3 stairs at once.
-// We've to return all the paths formed by these combinations in an arraylist.
+// Here, in this question, we're given the number of stairs and
+// we can climb down either 1 or 2 or 3 steps at once.
+// We have to return all the paths formed by these combinations in arraylist.
 
 package Recursion_Level_1;
 

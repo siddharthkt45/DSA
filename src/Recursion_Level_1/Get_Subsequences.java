@@ -7,7 +7,7 @@ package Recursion_Level_1;
 
 import java.util.*;
 
-public class Get_Subsequence {
+public class Get_Subsequences {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the string:- ");

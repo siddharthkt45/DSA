@@ -2,6 +2,7 @@
 // resembling a row and a column respectively which resembles a maze and
 // we've to return all the possible paths
 // which take us to the end of the maze (last row and last column) in an arraylist.
+// We can only move one step at a time, either in horizontal or in vertical direction.
 
 package Recursion_Level_1;
 
